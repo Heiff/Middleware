@@ -12,7 +12,7 @@ const getAllProducts = async(req,res) => {
 
 
 
-const postProducts = async (req,res) => {
+const postProducts = async(req,res) => {
     const { title,price } = req.body;
     const { image } = req.files
     const data = await Data.Read()

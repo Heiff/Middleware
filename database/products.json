@@ -1,14 +1,25 @@
 [
   {
-    "id":1,
+    "id": 1,
     "image": "09cddd20-0490-4156-b335-98d23f54f019.jpg",
     "title": "kitob101123",
     "price": "kitob haqida"
   },
   {
-    "id":2,
+    "id": 2,
     "image": "89c41c6f-8451-4317-8cf9-6562f42473af.jpg",
     "title": "kitob1011",
     "price": "kitob haqida"
+  },
+  {
+    "image": 3,
+    "title": "b3189852-8fcc-4a5b-8be1-71bc576039ae.png",
+    "price": "user"
+  },
+  {
+    "id": 1,
+    "image": "e95173eb-9cbc-48b3-8efd-342f67ad4a65.png",
+    "title": "user",
+    "price": "pass"
   }
 ]

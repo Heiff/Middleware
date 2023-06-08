@@ -8,11 +8,11 @@ const FileUpload = require('express-fileupload')
 
 
 app.use(express.json())
-app.use(express.urlencoded({ extended: false }))
-app.use('/',productRouter)
-app.use('/comments',commentsRouter)
+app.use(express.urlencoded({ extended: true }))
 app.use(express.static(`${process.cwd()}/images`));
 app.use(FileUpload());
+app.use('/',productRouter)
+app.use('/comments',commentsRouter)
 app.use('/',adminRouter)
 const PORT = process.env.PORT
 
